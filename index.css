@@ -3,6 +3,71 @@ body {
 }
 
 .container {
+    background-color: #1B244A;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.scoreBoardContainer {
     display: flex;
     justify-content: space-around;
+}
+
+h3 {
+    color: white;
+    font-family: Verdana;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    margin: 50px auto 20px auto;
+}
+
+p {
+    color: white;
+    font-family: Verdana;
+    text-align: center;
+    font-size: 25px;
+}
+
+.scoreContainer {
+    width: 155px;
+    height: 120px;
+    background-color: black;
+    margin: 20px auto 25px auto;
+}
+
+#guestScore, #homeScore {
+    font-size: 90px;
+    margin: 0;
+    color: #F94F6D;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.buttonsContainer button {
+    width: 45px;
+    height: 45px;
+    border: 2px solid #9AABD8;
+    color: #9AABD8;
+    background-color: transparent;
+    border-radius: 5px;
+    margin: 0 2px;
+    font-size: 18px;
+}
+
+#resetContainer {
+    margin: 30px auto;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+#resetBtn {
+    background: #9AABD8;
+    border: none;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: Verdana;
+    font-weight: 700;
 }

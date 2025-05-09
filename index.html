@@ -4,11 +4,35 @@
     </head>
     <body>
         <div class="container">
-            <div>
-                <h3>HOME</h3>
+            <div class="scoreBoardContainer">
+                <div>
+                    <h3>HOME</h3>
+                    <div class="scoreContainer">
+                        <p id="homeScore"></p>
+                    </div>
+                    <div class="buttonsContainer">
+                        <button onclick="addOnePointHome()">+1</button>
+                        <button onclick="addTwoPointsHome()">+2</button>
+                        <button onclick="addThreePointsHome()">+3</button>
+                    </div>
+                </div>
+                <div>
+                    <h3>GUEST</h3>
+                    <div class="scoreContainer">
+                        <p id="guestScore"></p>
+                    </div>
+                    <div class="buttonsContainer">
+                        <button onclick="addOnePointGuest()">+1</button>
+                        <button onclick="addTwoPointsGuest()">+2</button>
+                        <button onclick="addThreePointsGuest()">+3</button>
+                    </div>
+                </div>
             </div>
-            <div>
-                <h3>GUEST</h3>
+            <div id="winnerContainer">
+                <p id="leadingTeam">Leading Team: </p>
+            </div>
+            <div id="resetContainer">
+                <button id="resetBtn" onclick="resetGame()">NEW GAME?</button>
             </div>
         </div>
         <script src="index.js"></script>
